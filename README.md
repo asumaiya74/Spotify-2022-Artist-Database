@@ -14,9 +14,6 @@ Team members will divide work fairly and contribute equally to assignments. If a
 Our project milestone over the next three months is displayed below. We will have six major deadlines for this project that the team will follow. However, we will meet with the TA or the Professor between those due dates to get feedback on our progress. The project stages will be completed 3 days prior to the actual date. This will give us extra days if we are confused or have trouble with the project. 
 ![Project Milestones](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/6c574354-7921-44b1-9776-c10c1dda2419)
 
-
-
-
 ## Target audience:  
 Our target audience will mainly be those who listen to music often. Our music database will allow users to organize, manage, and search for music based on their preferences.
 
@@ -39,6 +36,11 @@ For sample data, we plan to use the Spotify Web API available to the public. It 
 - Reviews
 - Price of Song/Album
 - Total number of streams
+
+## Database Description:
+Our database will allow people to see information regarding their music choices. The database will let users see the different kinds of music and artists they listen to. The  users will most likely be Spotify listeners. So, we can provide information such as specific playlists, number of streams, and more. 
+Their music will be organized by categories such as the artist, genre, album, etc. We want to make sure that users can see all the different aspects and components of a song, so we will even provide information about the producers, the record company, and the date of release. Since college students spend a lot of their time listening to music, we thought it would be a good idea to create a database that organizes all their data. On the next page you can see our ERD Diagram draft.
+![Spotify 2022 Artist Database ERD](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/812ef9f8-7ee9-485f-9ffa-da0101439620)
 
 ## Questions that the database will be able to answer:  
 1. How many songs does a particular user own?
