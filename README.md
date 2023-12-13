@@ -61,3 +61,9 @@ For obtaining sample data, we used the Spotify Web API available to the public. 
 9. How many artists share the same record label?
 10. How many artists are under a particular genre?
 
+## Changes from Original Design
+The main changes from the original design were numerical values for columns such as Streams for a song or monthly listeners for an artist. This was something we initially wanted to include, however; since this number is constantly changing it was difficult to update this data every time the value does change. Other than that, our original design was kept the same. 
+
+## Lessons Learned
+Throughout this project there was a lot to learn about working in a group, especially a group that is working together remotely. Effective team communication was brought about by coming up with a specific schedule and time to meet every week to discuss any assignments as well as any problem we may be having. This level of organization created a well rounded work environment which allowed us to succeed on this project. We also learned about forward engineering ERD diagrams and how important it is to have your primary and foreign keys set prior to forward engineering. Lastly, we learned how to deal with data import issues by changing some settings in workbench to avoid possible errors.
+
