@@ -6,6 +6,16 @@
 Our idea for the project is to create a music database. This database will provide users with information about their own individual music catalog. This will allow people to have an organized database that keeps track of their music and is organized based on various categories.
 The scope of our project is to completely cover every end of a song. For example, the database will cover the basics of a song, such as Song Name, Artist, and Genre. However, our database will also provide information that most people need to learn, such as Producer, Company, or year of release. We chose this topic because, as college students, we spend a lot of time listening to music and having a database where all of our song data is stored could be helpful.
 
+## Project Plan: 
+Our team meeting plan is to communicate through GroupMe to establish the best meeting times. We will meet on Zoom every Monday at 5 PM to work on the project for an hour, and our backup day will be Wednesday at 10 AM. Moreover, we will schedule an additional day if needed.
+Team members will divide work fairly and contribute equally to assignments. If a team member cannot complete the assigned part, he/she needs to let us know during scheduling so we can complete it as a group. Team members will communicate actively and honestly. All the documents, files, and links will be shared through Google Drive, which everyone can access at any time and day. 
+
+## Project Milestone: 
+Our project milestone over the next three months is displayed below. We will have six major deadlines for this project that the team will follow. However, we will meet with the TA or the Professor between those due dates to get feedback on our progress. The project stages will be completed 3 days prior to the actual date. This will give us extra days if we are confused or have trouble with the project. 
+![Project Milestones](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/db3b9420-843d-4e34-8b12-f71dc7ae5c45)
+
+
+
 ## Target audience:  
 Our target audience will mainly be those who listen to music often. Our music database will allow users to organize, manage, and search for music based on their preferences.
 
