@@ -12,7 +12,8 @@ Team members will divide work fairly and contribute equally to assignments. If a
 
 ## Project Milestone: 
 Our project milestone over the next three months is displayed below. We will have six major deadlines for this project that the team will follow. However, we will meet with the TA or the Professor between those due dates to get feedback on our progress. The project stages will be completed 3 days prior to the actual date. This will give us extra days if we are confused or have trouble with the project. 
-![Project Milestones](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/db3b9420-843d-4e34-8b12-f71dc7ae5c45)
+![Project Milestones](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/6c574354-7921-44b1-9776-c10c1dda2419)
+
 
 
 
