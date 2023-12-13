@@ -22,3 +22,22 @@ For sample data, we plan to use the Spotify Web API available to the public. It 
 | Artist | First name, Last name, Number of Albums, Monthly listeners |
 | Song   | Song Name, Run Time, Artist Name, Album Name, Year released |
 | Album  | Album Name, Genre, Artist, Number of Songs, Total run time, Year released  | 
+
+## Entities/tables not included in the database:  
+- Song Rating
+- Reviews
+- Price of Song/Album
+- Total number of streams
+
+## Questions that the database will be able to answer:  
+1. How many songs does a particular user own?
+2. What is a particular user's favorite artist based on the total albums owned?
+3. What is a particular user’s favorite genre based on albums owned?
+4. What is the total number of albums owned by a particular artist?
+5. How many playlists have songs from a particular artist?
+6. How many playlists have songs from a particular genre?
+7. What is the user's longest album/song?
+8. How many songs does the user own from a particular time period?
+9. How many artists share the same record label?
+10. How many artists are under a particular genre?
+
