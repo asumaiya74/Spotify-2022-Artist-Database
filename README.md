@@ -12,7 +12,7 @@ Our target audience will mainly be those who listen to music often. Our music da
 ## Sample data:  
 For sample data, we plan to use the Spotify Web API available to the public. It contains all real data regarding artists, albums, songwriters, producers, etc. We will use some of the data available as the sample and continue using it once we need the real data. The URL is https://developer.spotify.com/documentation/web-api/reference/#/. 
 
-## Potential entities/tables with potential attributes/columns:  
+## Potential entities/tables with attributes/columns:  
 | Entity/Table | Potential Attributes |
 |----------|----------|
 | Playlist Songs  | Song Name | 
