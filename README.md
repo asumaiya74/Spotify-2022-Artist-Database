@@ -14,11 +14,12 @@ Team members will divide work fairly and contribute equally to assignments. If a
 The project milestone over the next three months is displayed below. We will have six major deadlines for this project that the team will follow. However, we will meet with the TA or the Professor between those due dates to get feedback on our progress. The project stages will be completed 3 days prior to the actual date. This will give us extra days if we are confused or have trouble with the project. 
 ![Project Milestones](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/6c574354-7921-44b1-9776-c10c1dda2419)
 
+## Database Description
+Our database will allow people to see information regarding their music choices. The database will let users see the different kinds of music and artists they listen to. The  users will most likely be Spotify listeners. So, we will be able to provide information such as specific playlists, number of streams, and more. 
+Their music will be organized by categories such as the artist, genre, album, etc. First we have the song table which includes information such as song name, run time, year released, etc. Next we have an Artist table which includes the artist name and number of albums. We additionally have a genre table which has various genres which are connected to a primary key. There is an album table which has the album name, artist, number of songs, year released, etc. The playlist table has the playlist name and the total songs in the playlist. Lastly, the producer table has information such as the producer name, company, as well as the artist associated with these values. We wanted to make sure that users can see all the different aspects and components of a song so we will even provide information about the producers, the record company,  and date of release. Since college students spend a lot of their time listening to music, we thought it would be a good idea to create a database that organizes all their data. On the next page you can see our ERD Diagram for our logical design. Below you can see our ERD Diagram draft.
+
 ## Target audience
 Our target audience will mainly be those who listen to music often. Our music database will allow users to organize, manage, and search for music based on their preferences.
-
-## Sample data 
-For sample data, we plan to use the Spotify Web API available to the public. It contains all real data regarding artists, albums, songwriters, producers, etc. We will use some of the data available as the sample and continue using it once we need the real data. The URL is https://developer.spotify.com/documentation/web-api/reference/#/. 
 
 ## Potential entities/tables with attributes/columns
 | Entity/Table | Potential Attributes |
@@ -31,16 +32,22 @@ For sample data, we plan to use the Spotify Web API available to the public. It 
 | Song   | Song Name, Run Time, Artist Name, Album Name, Year released |
 | Album  | Album Name, Genre, Artist, Number of Songs, Total run time, Year released  | 
 
+ ## Logical Design
+![Spotify 2022 Artist Database ERD](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/812ef9f8-7ee9-485f-9ffa-da0101439620)
+
+The main goal when creating our logical design was to ensure that each table could be mapped to one another. In order to ensure this, we created primary keys in every table as well as foreign keys in tables we believed to be necessary. “Artist_id” was an example of a foreign key where it was only necessary in tables such as “Album” ,”Song”, and “Producer”. Another example was the “genre_id” foreign key which would only make sense in the “Song” and “Album” tables. We wanted to not overdo it with the foreign keys and only use them in tables where it would make sense for it to be there.
+
+## Physical Database
+Our database is to help listeners on Spotify see what kind of music they listen to. It is made up of six tables which are Album, Song, Artist, Genre, Producer, and Playlist. We made sure to create tables that had relevant information which users would want to see. For example, if a user wanted to see what the genre of the album Lover by Taylor Swift is, they’d see that the genre_id is 1. So, you can go to the genre_id table and find that 1 means it is pop. We also wanted to make sure that users could learn about the producers of the songs they listen to which led us to creating the producers table. So, if someone wants to know the producer and the label in charge of a song/album, they can see who that is by looking at the producer_id and company_name. We made sure to think about what the user would want to know when creating the tables. See the file called "**spotify_db**"
+
 ## Entities/tables not included in the database 
 - Song Rating
 - Reviews
 - Price of Song/Album
 - Total number of streams
 
-## Database Description
-Our database will allow people to see information regarding their music choices. The database will let users see the different kinds of music and artists they listen to. The  users will most likely be Spotify listeners. So, we can provide information such as specific playlists, number of streams, and more. 
-Their music will be organized by categories such as the artist, genre, album, etc. We want to make sure that users can see all the different aspects and components of a song, so we will even provide information about the producers, the record company, and the date of release. Since college students spend a lot of their time listening to music, we thought it would be a good idea to create a database that organizes all their data. B,elow you can see our ERD Diagram draft.
-![Spotify 2022 Artist Database ERD](https://github.com/asumaiya74/Spotify-2022-Artist-Database/assets/90868294/812ef9f8-7ee9-485f-9ffa-da0101439620)
+## Sample data 
+For obtaining sample data, we used the Spotify Web API available to the public. It contains all real data regarding artists, albums, songwriters, producers, etc. We will use a portion of the data available as the sample and continue using it once we need the real data. The URL is:  https://developer.spotify.com/documentation/web-api/reference/#/. 
 
 ## Questions that the database will be able to answer
 1. How many songs does a particular user own?
